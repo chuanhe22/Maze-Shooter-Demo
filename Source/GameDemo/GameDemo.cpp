@@ -1,0 +1,8 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "GameDemo.h"
+#include "Modules/ModuleManager.h"
+
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, GameDemo, "GameDemo" );
+
+DEFINE_LOG_CATEGORY(LogGameDemo)
